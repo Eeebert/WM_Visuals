@@ -1,0 +1,7 @@
+services:
+  - type: static_site
+    name: wm-visuals
+    env: static
+    branch: main
+    staticPublishPath: .
+    plan: free
